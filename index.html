@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Almoite | B12Exercise 2A</title>
+        <!-- external css -->
+        <link rel="stylesheet" href="./css/style.css" />
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/a15ff02c89.js" crossorigin="anonymous"></script>
+        <!-- Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="container-fluid p-3 position-relative">
+            <!-- header start-->
+            <div class="py-3 mb-3 align-middle text-center">
+                <div><h1 class="text-light">Online.Library</h1></div>
+                <div>
+                    <form action="" method="">
+                        <div class="input-group">
+                            <input type="text" class="form-control" name="searchInput" id="searchInput" placeholder="Enter Book Title, Author, etc">
+                            <select class="form-select d-none d-md-inline-block" >
+                                <option value="">Filter</option>
+                                <option value="bookTitle">Book Title</option>
+                                <option value="author">Author</option>
+                                <option value="datePublished">Date Published</option>
+                            </select>
+                            <input type="submit" class="form-control bg-primary border-primary text-light" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Header end -->
+            <!-- Book list start -->
+            <div class="mb-3 py-3 books">
+                <table class="table table-borderless align-middle text-center text-dark fw-bold fs-md-5">
+                    <thead>
+                        <th class="col-5 col-md-8 col-lg-2">Book Cover</th>
+                        <th class="col-lg-2">Book Title</th>
+                        <th class="col-lg-2 d-none d-md-table-cell">Author</th>
+                        <th class="col-lg-2 d-none d-md-table-cell">Date Published</th>
+                        <th class="col-lg-2">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="overflow-hidden rounded">
+                                <img
+                                    src="images/image1.jpg"
+                                    class="img-fluid rounded"
+                                    width="300"
+                                    height="400"
+                                    
+                                />
+                            </td>
+                            <td>To Kill a Mockingbird</td>
+                            <td class="d-none d-md-table-cell">Harper Lee</td>
+                            <td class="d-none d-md-table-cell">July 11, 1960</td>
+                            <td class="p-4">
+                                <form action="Almoite_B12Exercise2B.html" method="">
+                                    <div class="row">
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-light d-block d-md-none mx-auto"><i class="fa-solid fa-cart-shopping"></i></button>
+                                            <input class="form-control d-md-block d-none" type="button" value="Add to Cart" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-warning d-block d-md-none mx-auto"><i class="fa-solid fa-star"></i></i></button>
+                                            <input class="form-control d-none d-md-block btn btn-warning" type="button" value="Add to Whishlist" />
+                                        </div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-success d-block d-md-none mx-auto"><i class="fa-solid fa-bag-shopping"></i></i></button>
+                                            <input
+                                            class="form-control btn btn-success d-none d-md-block"
+                                            type="submit"
+                                            value="Buy now"
+                                        /></div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="overflow-hidden rounded">
+                                <img
+                                    src="images/image2.jpg"
+                                    class="img-fluid rounded"
+                                    width="300"
+                                    height="400"
+                                />
+                            </td>
+                            <td>The Great Gatsby</td>
+                            <td class="d-none d-md-table-cell">F. Scott Fitzgerald</td>
+                            <td class="d-none d-md-table-cell">April 10, 1925</td>
+                            <td class="p-4">
+                                <form action="Almoite_B12Exercise2B.html" method="">
+                                    <div class="row">
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-light d-block d-md-none mx-auto"><i class="fa-solid fa-cart-shopping"></i></button>
+                                            <input class="form-control d-none d-md-block" type="button" value="Add to Cart" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-warning d-block d-md-none mx-auto"><i class="fa-solid fa-star"></i></i></i></button>
+                                            <input class="form-control d-none d-md-block btn btn-warning" type="button" value="Add to Whishlist" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-success d-block d-md-none mx-auto"><i class="fa-solid fa-bag-shopping"></i></i></button>
+                                            <input
+                                            class="form-control btn btn-success d-none d-md-block"
+                                            type="submit"
+                                            value="Buy now"
+                                        /></div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="overflow-hidden rounded">
+                                <img
+                                    src="images/image3.jpg"
+                                    class="img-fluid rounded"
+                                    width="300"
+                                    height="400"
+                                />
+                            </td>
+                            <td>Nineteen Eighty-Four</td>
+                            <td class="d-none d-md-table-cell">George Orwell</td>
+                            <td class="d-none d-md-table-cell">June 8, 1949</td>
+                            <td class="p-4">
+                                <form action="Almoite_B12Exercise2B.html" method="">
+                                    <div class="row">
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-light d-block d-md-none mx-auto"><i class="fa-solid fa-cart-shopping"></i></button>
+                                            <input class="form-control d-none d-md-block" type="button" value="Add to Cart" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-warning d-block d-md-none mx-auto"><i class="fa-solid fa-star"></i></i></i></button>
+                                            <input class="form-control d-none d-md-block btn btn-warning" type="button" value="Add to Whishlist" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-success d-block d-md-none mx-auto"><i class="fa-solid fa-bag-shopping"></i></i></button>
+                                            <input
+                                            class="form-control btn btn-success d-none d-md-block"
+                                            type="submit"
+                                            value="Buy now"
+                                        /></div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="overflow-hidden rounded">
+                                <img
+                                    src="images/image4.jpg"
+                                    class="img-fluid rounded"
+                                    width="300"
+                                    height="400"
+                                />
+                            </td>
+                            <td >Adventures of Huckleberry</td>
+                            <td class="d-none d-md-table-cell">Finn Mark Twain</td>
+                            <td class="d-none d-md-table-cell">1884</td>
+                            <td class="p-4">
+                                <form action="Almoite_B12Exercise2B.html" method="">
+                                    <div class="row">
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-light d-block d-md-none mx-auto"><i class="fa-solid fa-cart-shopping"></i></button>
+                                            <input class="form-control d-none d-md-block" type="button" value="Add to Cart" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-warning d-block d-md-none mx-auto"><i class="fa-solid fa-star"></i></i></i></button>
+                                            <input class="form-control d-none d-md-block btn btn-warning" type="button" value="Add to Whishlist" /></div>
+                                        <div class="col-12 my-2">
+                                            <button class="btn btn-success d-block d-md-none mx-auto"><i class="fa-solid fa-bag-shopping"></i></i></button>
+                                            <input
+                                            class="form-control btn btn-success d-none d-md-block"
+                                            type="submit"
+                                            value="Buy now"
+                                        /></div>
+                                    </div>
+                                </form>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Book list end -->
+            <!-- checkout start -->
+            <div class="d-flex justify-content-end align-items-center">
+                <form action="Almoite_B12Exercise2B.html" method="">
+                    <input type="submit" class="btn btn-primary fs-4" value="Checkout">
+                </form>
+            </div>
+            <!-- checkout end -->
+
+
+        </div>
+    </body>
+</html>
